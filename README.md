@@ -1,6 +1,6 @@
 # QGIS Hugo Website
 
-![Screenshot](./img/hugo-preview.png)
+![Screenshot](./README-images/hugo-preview.png)
 
 By Tim Sutton and QGIS Contributors.
 
@@ -8,13 +8,13 @@ By Tim Sutton and QGIS Contributors.
 
 [![E2E Tests](https://github.com/qgis/QGIS-Hugo/actions/workflows/e2e.yml/badge.svg)](https://github.com/qgis/QGIS-Hugo/actions/workflows/e2e.yml)
 [![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Hugo/actions/workflows/hugo.yml/badge.svg)](https://github.com/qgis/QGIS-Hugo/actions/workflows/hugo.yml)
-![Website Status](https://img.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Hugo.svg)
-![License](https://img.shields.io/github/license/qgis/QGIS-Hugo.svg)
+![Website Status](https:./README-images.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Hugo.svg)
+![License](https:./README-images.shields.io/github/license/qgis/QGIS-Hugo.svg)
 
-![](https://img.shields.io/github/issues/qgis/QGIS-Hugo.svg)
-![](https://img.shields.io/github/issues-closed/qgis/QGIS-Hugo.svg)
-![](https://img.shields.io/github/issues-pr/qgis/QGIS-Hugo.svg)
-![](https://img.shields.io/github/issues-pr-closed/qgis/QGIS-Hugo.svg)
+![](https:./README-images.shields.io/github/issues/qgis/QGIS-Hugo.svg)
+![](https:./README-images.shields.io/github/issues-closed/qgis/QGIS-Hugo.svg)
+![](https:./README-images.shields.io/github/issues-pr/qgis/QGIS-Hugo.svg)
+![](https:./README-images.shields.io/github/issues-pr-closed/qgis/QGIS-Hugo.svg)
 
 
 Project stars:
@@ -24,7 +24,7 @@ Project stars:
 
 This web site is a static site built using [Hugo](https://gohugo.io/).
 
-![Hugo Logo](./img/hugo-logo.png)
+![Hugo Logo](./README-images/hugo-logo.png)
 
 If you want to understand Hugo and the other technologies we used to build this site, there is some recommended reading for you below:
 
@@ -48,16 +48,16 @@ The following key skills are needed for theme developers (DEV) and content creat
 
 Technology | Notes | Who?
 -----------|--------|-------
-![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Essential skill for content creators. | DEV / CC
-![VSCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) | Streamlines your workflow. You can work directly in the GitHub website too. | DEV / CC
+![Markdown](https:./README-images.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white) | Essential skill for content creators. | DEV / CC
+![VSCode](https:./README-images.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) | Streamlines your workflow. You can work directly in the GitHub website too. | DEV / CC
 -----------|--------|-------
-![HTML](https://img.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) | Needed for creating templates (shortcodes & partials). | DEV
-![CSS](https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) | Note that we also use Bulma. | DEV
-![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | We are trying to use as little javascript as possible. | DEV
-![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) | A few utility scripts only. Mostly not needed. | DEV
-![SASS](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) | Customising Bulma mainly. | DEV
-![GO](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) | Mainly Go templating via HUGO. | DEV
-![Bash](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) | A few utility scripts only. | DEV
+![HTML](https:./README-images.shields.io/badge/HTML-239120?style=for-the-badge&logo=html5&logoColor=white) | Needed for creating templates (shortcodes & partials). | DEV
+![CSS](https:./README-images.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white) | Note that we also use Bulma. | DEV
+![Javascript](https:./README-images.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) | We are trying to use as little javascript as possible. | DEV
+![Python](https:./README-images.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white) | A few utility scripts only. Mostly not needed. | DEV
+![SASS](https:./README-images.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white) | Customising Bulma mainly. | DEV
+![GO](https:./README-images.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white) | Mainly Go templating via HUGO. | DEV
+![Bash](https:./README-images.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white) | A few utility scripts only. | DEV
 
 ### Quickstart
 
@@ -118,7 +118,7 @@ in your current Hugo version, see https://goo.gl/YMrWcn for more information
 
 You can find the extended version in the [releases page](https://github.com/gohugoio/hugo/releases).
 
-![Download](./img/hugo-download.png)
+![Download](./README-images/hugo-download.png)
 
 
 
@@ -280,8 +280,8 @@ We welcome your contributions! All contributors are expected to sign a contribut
 
 Page type | Path
 ----------|---------------
-Landing Page | themes/qgis/layouts/index.html
-Top Level Pages | themes/qgis/layouts/_default/single.html
+Landing Page | layouts/index.html
+Top Level Pages | layouts/_default/single.html
 
 ## 🏠 Editing the landing (home) page
 
@@ -299,14 +299,14 @@ The page will be accessible then at /about/
 
 ### 🖼️ Referencing Images and Media
 
-Place images and media in ```static/img```. Everything in ```static``` is referenced
-from the top level of the site e.g.  ```static/img/foo.png``` would be referenced in
-markdown as ```/img/foo.png```.
+Place images and media in ```stati./README-images```. Everything in ```static``` is referenced
+from the top level of the site e.g.  ```stati./README-images/foo.png``` would be referenced in
+markdown as ``./README-images/foo.png```.
 ## 🌶️ Working with menus
 
 There are two menus, the primary (1) menu which appears at the top of the page, and the secondary menu (2) which may appear beneath it depending on context.
 
-![Menus](./img/hugo-menus.png)
+![Menus](./README-images/hugo-menus.png)
 
 ### Primary Menu Pages
 
@@ -345,7 +345,7 @@ Use the ```submenu``` parameter to define which submenu the menu entry shouldn b
 
 In order for a secondary menu to be displayed, your content page needs to specify the submenu name in the front matter e.g.:
 
-![Menus](./img/hugo-submenus.png)
+![Menus](./README-images/hugo-submenus.png)
 
 Example front matter listing:
 
@@ -366,9 +366,9 @@ All of the menu entries specified in config.toml with a matching submenus term w
 
 ### Modifying the menu templates
 
-The primary menu template is implemented in ```themes/qgis/layouts/partials/menu.html```.
+The primary menu template is implemented in ```layouts/partials/menu.html```.
 
-The secondary menu template is implemented in ```themes/qgis/layouts/partials/submenu.html```.
+The secondary menu template is implemented in ```layouts/partials/submenu.html```.
 
 **Note:** You typically will not need to edit the above files unless you are a developer.
 
@@ -376,9 +376,9 @@ The secondary menu template is implemented in ```themes/qgis/layouts/partials/su
 
 Blocks span the page from left to right and contain sub elements for title, description, link etc.
 
-![Block](./img/hugo-block.png)
+![Block](./README-images/hugo-block.png)
 
-Blocks are defined in ```themes/qgis/layouts/shortcodes/block```. To use a block, simply add it to your markdown as per this example:
+Blocks are defined in ```layouts/shortcodes/block```. To use a block, simply add it to your markdown as per this example:
 
 ```
 {{< block
@@ -447,7 +447,7 @@ Normal markdown text....
 
 Will render like this:
 
-![Columns1](./img/hugo-columns1.png)
+![Columns1](./README-images/hugo-columns1.png)
 
 To render the blocks side by side, we can make a small tweak like this:
 
@@ -479,7 +479,7 @@ Normal markdown text....
 
 Above you can see we close each column before setting the nextWill render like this:
 
-![Columns2](./img/hugo-columns2.png)
+![Columns2](./README-images/hugo-columns2.png)
 
 One last column arrangement example shows how we can use the [bulma column sizes](https://bulma.io/documentation/columns/sizes/) to define specific column sizes:
 
@@ -510,11 +510,11 @@ Normal markdown text....
 
 Above you can see we use the is-one-third / is-two-thirds classes on each column so they render like this:
 
-![Columns3](./img/hugo-columns3.png)
+![Columns3](./README-images/hugo-columns3.png)
 
 The content you write within boxes can be normal markdown and can use any of the shortcode components described in this readme.  Here is an example from the download page showing a QR code block and a content card side by side in the grid.
 
-![Cards](./img/hugo-cards.gif)
+![Cards](./README-images/hugo-cards.gif)
 
 ### 🎬 Starting a box
 
@@ -550,7 +550,7 @@ ongoing support memberships as deemed appropriate.
 {{< box-end >}}
 ```
 
-![Box](./img/hugo-box.png)
+![Box](./README-images/hugo-box.png)
 
 
 ### 🔚 Ending a box
@@ -584,7 +584,7 @@ classes | (Optional) Any bulma classes you want to have applied to the internal 
 
 The ```button``` shortcode is a way to put a single button link element onto your page:
 
-![Cards](./img/hugo-button-bar.png)
+![Cards](./README-images/hugo-button-bar.png)
 
 ```
 {{< button
@@ -602,7 +602,7 @@ text = "User Group News" >}}
 
 The ```info-bar``` shortcode is a way to put a infographic style element onto your page:
 
-![Cards](./img/hugo-info-bar.png)
+![Cards](./README-images/hugo-info-bar.png)
 
 ```
 {{< info-bar 
@@ -618,7 +618,7 @@ illustrated above.
 
 The ```info-icons``` shortcode is a way to put a row of circular fontawesome icon elements onto your page:
 
-![Cards](./img/hugo-icon-bar.png)
+![Cards](./README-images/hugo-icon-bar.png)
 
 ```
 {{< info-icons 
@@ -634,13 +634,13 @@ To use icon-bar, pass it a collection of key-value pairs separated by ``:`` colo
 
 The ```image-bar``` shortcode is a way to put a row of circular image elements onto your page:
 
-![Cards](./img/hugo-image-bar.png)
+![Cards](./README-images/hugo-image-bar.png)
 
 ```
 {{< image-bar 
-    "Cartography:/img/map1.png"
-    "Analysis:/img/map2.png"
-    "Print:/img/map3.png" >}}
+    "Cartography./README-images/map1.png"
+    "Analysis./README-images/map2.png"
+    "Print./README-images/map3.png" >}}
 ```
 
 To use image-bar, pass it a collection of key-value pairs separated by ``:`` colons as
@@ -650,7 +650,7 @@ illustrated above. The secnd value should be a path to an image.
 
 The ```button-bar``` shortcode is a way to put a row of button link elements onto your page:
 
-![Cards](./img/hugo-button-bar.png)
+![Cards](./README-images/hugo-button-bar.png)
 
 ```
 {{< button-bar 
@@ -675,7 +675,7 @@ You can add as many buttons as you like to the bar, and they will be distributed
 
 The ```steps-bar``` shortcode is a way to put a row of steps onto your page:
 
-![Cards](./img/hugo-step-bar.png)
+![Cards](./README-images/hugo-step-bar.png)
 
 ```
 {{< steps-bar 
@@ -719,16 +719,16 @@ You can add as many steps as you like to the bar, and they will be distributed e
 
 Brand colours are established in ```config.toml```.
 
-![Brand Colours](./img/brand-config.png)
+![Brand Colours](./README-images/brand-config.png)
 
 These are compiled into the SASS theme when Hugo builds the site. You can further
-modify the branding by overriding bulma variables. To do this, edit ```themes/qgis/assets/sass/bulma.sass``` and add your variables. Each bulma page includes a list of variables at the bottom of the page which can be used to override the default bulma styling for the various elements they provide. For example, we can to the [variable list](https://bulma.io/documentation/elements/button/#variables) for bulma buttons and choose a property to modify:
+modify the branding by overriding bulma variables. To do this, edit ```assets/sass/bulma.sass``` and add your variables. Each bulma page includes a list of variables at the bottom of the page which can be used to override the default bulma styling for the various elements they provide. For example, we can to the [variable list](https://bulma.io/documentation/elements/button/#variables) for bulma buttons and choose a property to modify:
 
-![Bulma Variable](./img/brand-config-variable.png)
+![Bulma Variable](./README-images/brand-config-variable.png)
 
-Next, set a value for that variable in ```themes/qgis/assets/sass/bulma.sass```:
+Next, set a value for that variable in ```assets/sass/bulma.sass```:
 
-![Band SASS](./img/brand-config-sass.png)
+![Band SASS](./README-images/brand-config-sass.png)
 
 Finally, to rather use the parameter defined in ```config.toml```, you can use this syntax:
 
@@ -738,7 +738,7 @@ Finally, to rather use the parameter defined in ```config.toml```, you can use t
 
 ## Bulma Extensions
 
-We use various bulma css framework extension. If you need to add more, place them with the others in ```themes/qgis/assets/sass``` and then reference the addition in ```themes/qgis/assets/sass/bulma.sass``` (as shown in the example below). Always use the SASS version so that the them branding is properly applied. More bulma extensions can be found in 
+We use various bulma css framework extension. If you need to add more, place them with the others in ```assets/sass``` and then reference the addition in ```assets/sass/bulma.sass``` (as shown in the example below). Always use the SASS version so that the them branding is properly applied. More bulma extensions can be found in 
 
 ```sass
 /* Extensions */
@@ -752,6 +752,6 @@ We use various bulma css framework extension. If you need to add more, place the
 
 ## Other CSS Customizations
 
-Put your customizations in ```themes/qgis/assets/css/custom.css```.
+Put your customizations in ```assets/css/custom.css```.
 
-We use a hugo minification and combining  workflow - see the header layout in ```themes/qgis/layouts/partials/header.html```.
+We use a hugo minification and combining  workflow - see the header layout in ```layouts/partials/header.html```.
