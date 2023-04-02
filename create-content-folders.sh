@@ -26,7 +26,7 @@ mkdir content/funding
 mkdir content/shop
 mkdir content/donate
 touch content/donate/index.md
-mkdir content/sustaining-members
+mkdir content/donate/sustaining-members
 touch content/donate/sustaining-members/index.md
 touch content/donate/_index.md
 mkdir content/hub
