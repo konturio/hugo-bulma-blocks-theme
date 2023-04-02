@@ -131,6 +131,10 @@ You can create this structure using the script provided:
 ./create-content-folders.sh
 ```
 
+The script above also copies the stock footer.html from the theme into
+```layouts\partials\footer.html``` which you can then modify according to your
+needs.
+
 Occasionally you may wish to update the theme, you can do so using:
 
 ```

@@ -58,3 +58,5 @@ mkdir content/value-proposition
 touch content/value-proposition/index.md
 touch charter.md
 touch _index.md
+mkdir -p layouts/partials/
+cp themes/hugo-bulma-blocks-theme/layouts/partials/footer.html layouts/partials/
