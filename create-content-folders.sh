@@ -53,6 +53,7 @@ touch content/showcase/case-studies/example2/index.md
 touch content/showcase/case-studies/community-blogs.md
 touch content/showcase/case-studies/_index.md
 touch content/showcase/case-studies/maps.md
+touch content/showcase/overview.md
 mkdir content/value-proposition
 touch content/value-proposition/index.md
 touch charter.md
