@@ -131,6 +131,11 @@ You can create this structure using the script provided:
 ./create-content-folders.sh
 ```
 
+Occasionally you may wish to update the theme, you can do so using:
+
+```
+git submodule update --remote
+```
 
 
 Ok now you should really read the rest of this document because this theme
