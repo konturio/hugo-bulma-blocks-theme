@@ -59,4 +59,5 @@ touch content/value-proposition/index.md
 touch charter.md
 touch _index.md
 mkdir -p layouts/partials/
+mkdir -p static/img
 cp themes/hugo-bulma-blocks-theme/layouts/partials/footer.html layouts/partials/

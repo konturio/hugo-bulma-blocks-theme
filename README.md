@@ -135,6 +135,10 @@ The script above also copies the stock footer.html from the theme into
 ```layouts\partials\footer.html``` which you can then modify according to your
 needs.
 
+Also put your logo in ```static/img/logo.png```:
+
+
+
 Occasionally you may wish to update the theme, you can do so using:
 
 ```
