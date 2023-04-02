@@ -20,6 +20,122 @@ By Tim Sutton and QGIS Contributors.
 Project stars:
 ![Stars](https://starchart.cc/qgis/QGIS-Hugo.svg)
 
+## TLDR
+
+There is a lot of information in the README but you are probably too impatient
+to read it and just want to test this theme out so try this:
+
+```
+hugo new site YOURSITENAME
+cd YOURSITENAME
+git init
+git submodule add git@github.com:kartoza/hugo-bulma-blocks-theme.git themes/hugo-bulma-blocks-theme
+git submodule update --init --recursive
+cp themes/hugo-bulma-blocks-theme/exampleSite/config.toml .
+vim config.toml 
+hugo server
+```
+
+Here is an example of how you should structure your content folder if you want all the default menus etc. to work.
+
+
+```
+exampleSite/content
+├── about
+│   ├── index.md
+│   ├── image1.png
+│   └── image2.png
+├── community
+│   ├── index.md
+│   └── image1.png
+├── community-blogs
+│   ├── index.md
+│   ├── article1.md
+├── documentation
+│   └── overview.md
+├── download
+│   ├── download.md
+│   ├── linuxbutton.png
+│   ├── linux.md
+│   ├── macbutton.png
+│   ├── macos.md
+│   ├── os-selection.md
+│   ├── windowsbutton.png
+│   └── windows.md
+├── flagship-users
+│   ├── corporation1.md
+│   ├── corporation1.png
+│   ├── corporation2.md
+│   ├── corporation2.png
+│   └── index.md
+├── flickr-images
+│   ├── example1.jpg
+│   ├── example1.md
+│   └── index.md
+├── funders
+│   ├── funder1.md
+│   ├── funder1-logo.png
+│   ├── funder2.md
+│   ├── funder2-logo.png
+│   ├── index.md
+├── funding
+│   ├── donate
+│   │   ├── index.md
+│   │   └── image.png
+│   ├── shop
+│   ├── sustaining-members
+│   │   └── index.md
+│   └── _index.md
+├── hub
+│   ├── index.md
+│   └── example.png
+├── license
+│   └── index.md
+├── news
+│   ├── amy.md
+│   ├── _index.md
+│   └── qgis3.28.md
+├── people
+│   ├── _index.md
+│   └── tim-sutton.md
+├── posts
+│   └── _index.md
+├── roadmap
+│   └── roadmap.md
+├── search
+│   └── _index.html
+├── showcase
+│   ├── case-studies
+│   │   ├── example1
+│   │   │   ├── image.jpg
+│   │   │   └── index.md
+│   │   ├── example2
+│   │   │   ├── image.jpg
+│   │   │   ├── index.md
+│   │   └── _index.md
+│   ├── community-blogs.md
+│   ├── _index.md
+│   ├── maps.md
+│   ├── overview.md
+│   ├── screenshots.md
+│   └── user-group-events.md
+├── value-proposition
+│   └── index.md
+├── charter.md
+├── _index.md
+```
+
+You can create this structure using the script provided:
+
+```
+./create-content-folders.sh
+```
+
+
+
+Ok now you should really read the rest of this document because this theme
+provides a rich set of shortcodes and other niceties to make your site.
+
 ## 🏃Before you start
 
 This web site is a static site built using [Hugo](https://gohugo.io/).
