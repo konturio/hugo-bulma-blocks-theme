@@ -1,14 +1,14 @@
 ---
 type: "page"
 title: "Our Community"
-subtitle: "Experience the world’s most vibrant community of geospatial experts and enthusiasts"
+subtitle: "Experience the world’s most vibrant community of experts and enthusiasts"
 draft: false
 heroImage: "img/banners/banner4.png"
 ---
 
 {{< block
-    title="The QGIS Charter."
-    subtitle="The QGIS Charter guides our project's open governance and community."
+    title="Our Charter."
+    subtitle="Our Charter guides our project's open governance and community."
     image=""
     link="charter/"
     link-text="View Charter"
@@ -17,23 +17,23 @@ heroImage: "img/banners/banner4.png"
 >}}{{< /block >}}
 
 {{< block
-    title="QGIS Users."
-    subtitle="Our user groups represent the global community of QGIS users and enthusiasts. With different local groups all over the world as well as virtual groups there is a community for you!"
+    title="Users."
+    subtitle="Our user groups represent our global community of users and enthusiasts. With different local groups all over the world as well as virtual groups there is a community for you!"
     sub-block-side="left"
     class="is-primary2"
 >}}{{< /block >}}
 
 {{< block
     title="Our Contributors."
-    subtitle="QGIS is an open project and anyone may contribute if they abide by our community guidelines. By doing this we are democratizing access to the technology underlying QGIS."
+    subtitle="We are an open project and anyone may contribute if they abide by our community guidelines. By doing this we are democratizing access to our technology."
     image=""
     sub-block-side="left"
     class="is-primary3"
 >}}{{< /block >}}
 
 {{< block
-    title="QGIS Supporters."
-    subtitle="Developing a free-to-use world-notch GIS platform costs money, time and effort. Our supporters make it possible to amplify the efforts of our community."
+    title="Supporters."
+    subtitle="Developing a free-to-use world-class platform costs money, time and effort. Our supporters make it possible to amplify the efforts of our community."
     image=""
     sub-block-side="left"
     class="is-primary4"
@@ -42,7 +42,7 @@ heroImage: "img/banners/banner4.png"
 
 {{< block
     title="Service Providers"
-    subtitle="If you use QGIS in a professional setting, there are over 60 companies worldwide offering professional support and development services."
+    subtitle="If you use our software in a professional setting, there companies worldwide offering professional support and development services."
     sub-block-side="left"
     class="is-primary5"
 >}}{{< /block >}}

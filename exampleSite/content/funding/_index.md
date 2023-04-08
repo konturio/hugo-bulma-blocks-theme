@@ -2,7 +2,7 @@
 # Note: Template for this page in 
 type: "funding"
 date: "2023-01-18"
-title: "QGIS Funding"
+title: "Funding"
 description: "Funding avenues that support our work."
 draft: false
 author: ""
@@ -15,7 +15,7 @@ thumbnail: ""
 ---
 
 {{< content-start >}}
-QGIS is a community project, and although we make the software available for free, it is not free to develop. Creating an excellent software application like QGIS requires time and skills for many contributors around the world, and the maintainance of expensive infrastructure like download servers and backend systems. We encourage you to read more about the [value proposition](../value-proposition/) for QGIS and then support us financially in any way that you can, using the options below.
+We are a community project, and although we make the software available for free, it is not free to develop. Creating an excellent software application like requires time and skills for many contributors around the world, and the maintainance of expensive infrastructure like download servers and backend systems. We encourage you to read more about the [value proposition](../value-proposition/) for and then support us financially in any way that you can, using the options below.
 {{< content-end >}}
 
 {{< columns-start >}}
@@ -49,20 +49,20 @@ QGIS is a community project, and although we make the software available for fre
 {{< column-start class="is-half">}}
 {{< block
     title="Shop."
-    subtitle="Support our work and enjoy some QGIS branded products."
+    subtitle="Support our work and enjoy some branded products."
     image=""
     sub-block-side="bottom"
     class="is-warning"     
     title-size="is-4"
     subtitle-size="is-6"    
-    link="https://shop.spreadshirt.net/qgis/"
+    link="https://shop.spreadshirt.net/example/"
     link-text="Shop"
 >}}{{< /block >}}
 {{< column-end >}}
 {{< column-start class="is-half">}}
 {{< block
     title="Direct Engagement."
-    subtitle="Hire community members directly to engage their services for the benefit of the QGIS project."
+    subtitle="Hire community members directly to engage their services for the benefit of our project."
     image=""
     sub-block-side="bottom"
     class="is-success"     

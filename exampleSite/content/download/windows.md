@@ -1,7 +1,7 @@
 ---
 type: "page"
 title: "Download"
-subtitle: "QGIS Desktop for Windows"
+subtitle: "Our software for Windows"
 draft: false
 heroImage: "img/banners/banner4.png"
 ---
@@ -20,16 +20,16 @@ heroImage: "img/banners/banner4.png"
 
 This is the all-in-one stable release installer. The software you receive with the free download link and the download and donate link is identical. For other Windows installer variants see here.
 
-**Use QGIS Desktop on Windows**
+**Use our sofware on Windows**
 
 - Download and run the Windows installer
 - Open the start menu
-- Search or scroll through the applications list for QGIS Desktop followed by the version number.
-- Click the shortcut entry to launch QGIS
+- Search or scroll through the applications list for our software followed by the version number.
+- Click the shortcut entry to launch our software
 
 **Next steps**
 
-- If you are just starting out, read the Gentle Inroduction to GIS
+- If you are just starting out, read the quick start guide
 - Follow the self paced training manual
 - Get help using the user manual 
 - Get support from the community via live chat, forums or mailing lists
@@ -42,9 +42,9 @@ This is the all-in-one stable release installer. The software you receive with t
 # Support our work
 
 While you are downloading this fantastic software, maybe it is a good time to read our
-[value proposition](value-proposition.md). We need organisations that use QGIS to support
+[value proposition](value-proposition.md). We need organisations that use our software to support
 our work! By becoming a sustaining member your organisation can be part of the global
-impact that the QGIS project has.
+impact that the our project has.
 
 {{< box-end >}}
 {{< column-end >}}

@@ -14,7 +14,7 @@ heroImage: "img/banners/banner3.png"
     "fa-solid fa-download:Download and install:false"
  >}}
 
-QGIS is available on all popular operating systems. Select your operating system below for installation instructions.
+Our software is available on all popular operating systems. Select your operating system below for installation instructions.
 
 
 {{< button-bar 

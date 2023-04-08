@@ -1,19 +1,18 @@
 ---
 type: "page"
 title: "Documentation Overview"
-subtitle: "QGIS Documentation Resources"
+subtitle: "Our Documentation Resources"
 draft: false
 heroImage: "img/banners/banner2.png"
 # Which second level menu to show
 submenus: documentation
 ---
 
-# Overview of the QGIS Documentation Resources
+# Overview of the Documentation Resources
 
 Our documentation is divided into different topic areas:
 
-* General GIS
-* QGIS Usage Documentation
-* QGIS Developer Documentation
+* General
+* User Documentation
+* Developer Documentation
 
-![Logo](/img/favicon/apple-touch-icon.png)

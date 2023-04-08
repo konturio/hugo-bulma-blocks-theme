@@ -7,7 +7,7 @@ heroImage: "img/banners/banner1.png"
 ---
 
 {{< block
-    title="Contribute and keep QGIS sustainable"
+    title="Contribute and keep our software sustainable"
     sub-block-side="cover"
 >}}{{< /block >}}
 
@@ -26,15 +26,15 @@ heroImage: "img/banners/banner1.png"
 >}}
 Name | Value
 ---|---
-**Account name:**|QGIS.ORG
-**Address**|Boeschacherstrasse 10a, CH-8624 Gruet
-  **BIC/SWIFT:** |POFICHBEXXX
-**IBAN**|CH09 0900 0000 9146 3839 8
-**Reference:**|Donation QGIS
+**Account name:**|example.com
+**Address**|Example Address
+  **BIC/SWIFT:** |12345678
+**IBAN**|1234 1234 1234 1234
+**Reference:**|Donation 
 **Currency:**|EUR
-**Bank name:**   |PostFinance AG
-**Bank address:**|Mingerstrasse 20, 3030 Berne,Switzerland
-**VAT-number:**|CHE-489.853.176
+**Bank name:**   |Megacorp Bank
+**Bank address:**|123 Bank Street
+**VAT-number:**|123 123 123
 {{< /block >}}
 
 {{< block
