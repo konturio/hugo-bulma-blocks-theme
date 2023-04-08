@@ -1,4 +1,4 @@
-# QGIS Hugo Website
+# Hugo Bulma Blocks Theme
 
 ![Screenshot](./README-images/hugo-preview.png)
 
@@ -6,19 +6,19 @@ By Tim Sutton and QGIS Contributors.
 
 ## Project Status
 
-[![E2E Tests](https://github.com/qgis/QGIS-Hugo/actions/workflows/e2e.yml/badge.svg)](https://github.com/qgis/QGIS-Hugo/actions/workflows/e2e.yml)
-[![Deploy Hugo site to Pages](https://github.com/qgis/QGIS-Hugo/actions/workflows/hugo.yml/badge.svg)](https://github.com/qgis/QGIS-Hugo/actions/workflows/hugo.yml)
+[![E2E Tests](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/e2e.yml/badge.svg)](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/e2e.yml)
+[![Deploy Hugo site to Pages](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/hugo.yml/badge.svg)](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/hugo.yml)
 ![Website Status](https:./README-images.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Hugo.svg)
-![License](https:./README-images.shields.io/github/license/qgis/QGIS-Hugo.svg)
+![License](https:./README-images.shields.io/github/license/kartoza/hugo-bulma-blocks-theme.svg)
 
-![](https:./README-images.shields.io/github/issues/qgis/QGIS-Hugo.svg)
-![](https:./README-images.shields.io/github/issues-closed/qgis/QGIS-Hugo.svg)
-![](https:./README-images.shields.io/github/issues-pr/qgis/QGIS-Hugo.svg)
-![](https:./README-images.shields.io/github/issues-pr-closed/qgis/QGIS-Hugo.svg)
+![](https:./README-images.shields.io/github/issues/kartoza/hugo-bulma-blocks-theme.svg)
+![](https:./README-images.shields.io/github/issues-closed/kartoza/hugo-bulma-blocks-theme.svg)
+![](https:./README-images.shields.io/github/issues-pr/kartoza/hugo-bulma-blocks-theme.svg)
+![](https:./README-images.shields.io/github/issues-pr-closed/kartoza/hugo-bulma-blocks-theme.svg)
 
 
 Project stars:
-![Stars](https://starchart.cc/qgis/QGIS-Hugo.svg)
+![Stars](https://starchart.cc/kartoza/hugo-bulma-blocks-theme.svg)
 
 ## TLDR
 
@@ -305,7 +305,7 @@ pip install pytest pytest-base-url playwright
 These tests exist to make sure code changes to this repository do not break how the site currently functions.
 They are intended to run on each commit to verify the site is working in expected order.
 
-Read more on testing [here](https://github.com/qgis/QGIS-Hugo/blob/main/test/Readme.md).
+Read more on testing [here](https://github.com/kartoza/hugo-bulma-blocks-theme/blob/main/test/Readme.md).
 
 ## Creating and Running Tests
 
@@ -403,7 +403,7 @@ The site needs to work in production, where the links of the site are all below 
 
 We welcome your contributions! All contributors are expected to sign a contributor license agreement (CLA) which you can see [here](https://gist.github.com/timlinux/cc20c0b8860648da977a261d46b170d4). This process is automatically enabled when you create your first pull request via https://cla-assistant.io/.
 
-[![CLA assistant](https://cla-assistant.io/readme/badge/qgis/QGIS-Hugo)](https://cla-assistant.io/qgis/QGIS-Hugo)
+[![CLA assistant](https://cla-assistant.io/readme/badge/kartoza/hugo-bulma-blocks-theme)](https://cla-assistant.io/kartoza/hugo-bulma-blocks-theme)
 
 ## 💮 Changing the templates
 
