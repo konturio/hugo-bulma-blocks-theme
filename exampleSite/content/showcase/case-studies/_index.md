@@ -1,7 +1,7 @@
 ---
 type: "showcase"
 date: "2015-04-01"
-title: "QGIS Case Studies"
+title: "Case Studies"
 description: "Stories from our users around the world."
 draft: false
 author: ""

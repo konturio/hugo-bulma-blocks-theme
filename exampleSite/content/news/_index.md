@@ -1,6 +1,6 @@
 +++
 aliases = ["news"]
 title = "News"
-author = "Tim Sutton"
+author = "Joe BLoggs"
 tags = ["index"]
 +++
