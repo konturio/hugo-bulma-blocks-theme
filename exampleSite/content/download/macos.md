@@ -3,7 +3,7 @@ type: "page"
 title: "Download"
 subtitle: "QGIS Desktop for macOS"
 draft: false
-heroImage: "img/banners/banner4.png"
+heroImage: "img/banners/banner2.png"
 ---
 
 {{< steps-bar 

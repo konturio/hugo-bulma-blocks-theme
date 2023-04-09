@@ -3,7 +3,7 @@ type: "page"
 title: "Your copy of our software is ready for download!"
 subtitle: ""
 draft: false
-heroImage: "img/banners/banner4.png"
+heroImage: "img/banners/banner3.png"
 ---
 
 

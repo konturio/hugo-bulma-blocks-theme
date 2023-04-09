@@ -3,7 +3,7 @@ type: "page"
 title: "Our Community"
 subtitle: "Experience the world’s most vibrant community of experts and enthusiasts"
 draft: false
-heroImage: "img/banners/banner4.png"
+heroImage: "img/banners/banner3.png"
 ---
 
 {{< block

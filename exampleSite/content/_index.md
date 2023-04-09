@@ -3,7 +3,7 @@ type: "page"
 title: "PRODUCT NANE"
 subtitle: "Welcome to the world’s most popular open source analysis suite."
 draft: false
-heroImage: "img/banners/banner4.png"
+heroImage: "img/banners/banner3.png"
 heroSize: "is-large"
 ---
 

@@ -3,7 +3,7 @@ type: "page"
 title: "About QGIS"
 subtitle: ""
 draft: false
-heroImage: "img/banners/banner4.png"
+heroImage: "img/banners/banner1.png"
 ---
 
 {{< block
