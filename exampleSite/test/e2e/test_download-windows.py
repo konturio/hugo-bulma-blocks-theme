@@ -11,7 +11,7 @@ def test_homepage_screenshot(page: Page, screenshot_dir: Path):
 
 def test_download_windows_page_title(page: Page):
     page.goto("/download/windows/")
-    assert page.title() == "Download · QGIS Web Site"
+    assert page.title() == "Download · Web Site"
 
 def test_download_windows_banner_title(page: Page):
     page.goto("/download/windows/")
@@ -21,5 +21,5 @@ def test_download_windows_banner_title(page: Page):
 def test_download_windows_banner_subtitle(page: Page):
     page.goto("/download/windows/")
     hero_subtitle = page.locator(".hero-subtitle")
-    expect(hero_subtitle).to_contain_text("QGIS Desktop for Windows")
+    expect(hero_subtitle).to_contain_text("Download for Windows")
 

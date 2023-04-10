@@ -11,7 +11,7 @@ jobs:
   scrape:
     runs-on: ubuntu-latest
     steps:
-    - name: '🛒 Checkout QGIS Hugo'
+    - name: '🛒 Checkout Hugo Project'
       uses: actions/checkout@v3
       with:
         ref: main

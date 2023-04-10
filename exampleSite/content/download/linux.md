@@ -15,7 +15,7 @@ heroImage: "img/banners/banner1.png"
 {{< columns-start >}}
 {{< column-start class="is-one-third">}}
 {{< box-start >}}
-# QGIS for Linux
+# Download for Linux
 
 The quick way:
 

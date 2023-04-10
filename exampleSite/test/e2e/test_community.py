@@ -11,7 +11,7 @@ def test_homepage_screenshot(page: Page, screenshot_dir: Path):
 
 def test_community_page_title(page: Page):
     page.goto("/community/")
-    assert page.title() == "Our Community · QGIS Web Site"
+    assert page.title() == "Our Community · Web Site"
 
 def test_community_banner_title(page: Page):
     page.goto("/community/")

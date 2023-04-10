@@ -2,13 +2,13 @@
 
 ![Screenshot](./README-images/hugo-preview.png)
 
-By Tim Sutton and QGIS Contributors.
+By Tim Sutton
 
 ## Project Status
 
 [![E2E Tests](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/e2e.yml/badge.svg)](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/e2e.yml)
 [![Deploy Hugo site to Pages](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/hugo.yml/badge.svg)](https://github.com/kartoza/hugo-bulma-blocks-theme/actions/workflows/hugo.yml)
-![Website Status](https:./README-images.shields.io/website-up-down-green-red/http/qgis.github.io/QGIS-Hugo.svg)
+![Website Status](https:./README-images.shields.io/website-up-down-green-red/http/kartoza.github.io/hugo-bulma-blocks-theme.svg)
 ![License](https:./README-images.shields.io/github/license/kartoza/hugo-bulma-blocks-theme.svg)
 
 ![](https:./README-images.shields.io/github/issues/kartoza/hugo-bulma-blocks-theme.svg)
@@ -94,7 +94,7 @@ exampleSite/content
 ├── news
 │   ├── amy.md
 │   ├── _index.md
-│   └── qgis3.28.md
+│   └── kartoza3.28.md
 ├── people
 │   ├── _index.md
 │   └── tim-sutton.md
@@ -168,8 +168,6 @@ If you want to understand Hugo and the other technologies we used to build this 
 * This theme uses the [Bulma CSS framework](https://bulma.io/), which you should familiarise
 yourself with if you want to change the theme.
 
-* View the website design [QGIS website figma](https://www.figma.com/file/bHHUUVZ1fbQMtwSmtCSXYN/qgis-website?node-id=259%3A379)
-
 * The relationship between some of the key concepts in Hugo is shown below:
 ![Overview diagram](img/hugo-overview.drawio.png)
 
@@ -212,15 +210,11 @@ section template | By default a section with nested subfolders of content will r
 
 ## 🏺 Background & Design Philosopy
 
-The QGIS.org web site receives a **lot** of traffic so our website is designed to be fast, privacy respecting and open source, like the rest of QGIS.
+We are building for a web site that receives a **lot** of traffic so our website is designed to be fast, privacy respecting and open source.
 
 * 💨 Fast: all pages are statically generated, there is no database, no bulky javascript or CSS frameworks etc.
 * 🔒 Privacy respecting: as much as possible we avoid things that can be used to track you - no resources loaded from other web sites, no cookies, no trackers, no sessions etc.
-* 🖊️Open source: This repository is covered by two licenses:
-  * The HUGO Project and QGIS theme provided here are published under a permissive 🔑 [MIT License](LICENSE). 
-  * The actual content of the web site is © QGIS.ORG amd Contributors and is made available under the [Creative Commons-NonCommercial-Share-Alike-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license. We chose this license to provent third parties from hosting their own, possibly malisciously altered versions of the QGIS.org web site.
-
-![CC License](img/hugo-content-license.png)
+* 🖊️Open source: The theme provided here is published under a permissive 🔑 [MIT License](LICENSE). 
 
 **👏 A quick acknowledgement:** The starting point for this site was the web site created by the community around [jupiterbroadcasting.com](https://jupiterbroadcasting.com) . you can find their GitHub Repo [here](https://github.com/JupiterBroadcasting/jupiterbroadcasting.com) - although we have made so many changes, there probably isn't much left of the site we derived from in this repo.
 
@@ -229,7 +223,7 @@ The QGIS.org web site receives a **lot** of traffic so our website is designed t
 Navigate to your development directory
 
 ```
-git clone https://github.com/qgis/qgis-hugo.git
+git clone https://github.com/kartoza/hugo-bulma-blocks-theme.git
 ```
 
 ## 🧑🏽‍💻 Development
@@ -275,7 +269,7 @@ If you are using VSCode, I recommend the following extensions:
 Clone the repo:
 
 ```
-git clone https://github.com/qgis/qgis-hugo.git
+git clone https://github.com/kartoza/hugo-bulma-blocks-theme.git
 ```
 
 Run the site:
@@ -482,7 +476,7 @@ Example front matter listing:
 ---
 type: "page"
 title: "Documentation Overview"
-subtitle: "QGIS Documentation Resources"
+subtitle: "Documentation Resources"
 draft: false
 heroImage: "img/banners/banner2.png"
 submenus: documentation

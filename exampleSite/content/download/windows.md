@@ -16,7 +16,7 @@ heroImage: "img/banners/banner2.png"
 {{< column-start class="is-two-thirds">}}
 {{< box-start >}}
 
-# Download QGIS for Windows
+# Download for Windows
 
 This is the all-in-one stable release installer. The software you receive with the free download link and the download and donate link is identical. For other Windows installer variants see here.
 

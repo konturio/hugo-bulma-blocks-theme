@@ -11,7 +11,7 @@ def test_homepage_screenshot(page: Page, screenshot_dir: Path):
 
 def test_resources_page_title(page: Page):
     page.goto("/hub/")
-    assert page.title() == "Resources/Hub · QGIS Web Site"
+    assert page.title() == "Resources/Hub · Web Site"
 
 def test_resources_banner_title(page: Page):
     page.goto("/hub/")

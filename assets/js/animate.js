@@ -1,4 +1,4 @@
-const qgis_observer = new IntersectionObserver((entries) => {
+const animation_observer = new IntersectionObserver((entries) => {
     console.log("Animation observer");
     entries.forEach((entry) => {
         console.log(entry);
@@ -23,4 +23,4 @@ const qgis_observer = new IntersectionObserver((entries) => {
     })
 });
 const animationElements = document.querySelectorAll('.animation-element');
-animationElements.forEach((element) => qgis_observer.observe(element));
+animationElements.forEach((element) => animation_observer.observe(element));

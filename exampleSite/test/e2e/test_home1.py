@@ -16,12 +16,12 @@ def test_homepage_has_logo(page: Page):
 
 def test_title(page: Page):
     page.goto("/")
-    assert page.title() == "QGIS · QGIS Web Site"
+    assert page.title() == "Web Site"
 
 def test_homepage_banner_title(page: Page):
     page.goto("/")
     hero_title = page.locator(".hero-title")
-    expect(hero_title).to_contain_text("QGIS")
+    expect(hero_title).to_contain_text("About")
 
 def test_homepage_banner_subtitle(page: Page):
     page.goto("/")

@@ -1,6 +1,6 @@
 ---
 type: "showcase"
-title: "QGIS Showcases"
+title: "Showcase"
 draft: false
 heroImage: "img/banners/banner1.png"
 author: ""

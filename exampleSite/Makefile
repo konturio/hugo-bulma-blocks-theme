@@ -1,5 +1,5 @@
 help:
-		@echo "QGIS Hugo"
+		@echo "hugo-bulma-blocks-theme"
 		@echo 
 		@echo "Brought to you by Kartoza (Pty) Ltd."
 		@echo 
@@ -26,8 +26,8 @@ deploy-prod: ## Deploy everything to production
 	docker image prune -af
 
 tests: ## Run the test suite
-	docker build --rm -f Dockerfile.tests -t qgis_hugo_tests:latest .
-	docker run --rm --net=host --volume "$${PWD}":/app -w /app qgis_hugo_tests:latest
+	docker build --rm -f Dockerfile.tests -t hugo_tests:latest .
+	docker run --rm --net=host --volume "$${PWD}":/app -w /app hugo_tests:latest
 
 build: ## Build the site then run using python http.server
 	hugo

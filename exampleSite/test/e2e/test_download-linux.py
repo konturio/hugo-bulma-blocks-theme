@@ -12,7 +12,7 @@ def test_homepage_screenshot(page: Page, screenshot_dir: Path):
 
 def test_download_linux_page_title(page: Page):
     page.goto("/download/linux/")
-    assert page.title() == "Download · QGIS Web Site"
+    assert page.title() == "Download · Web Site"
 
 def test_download_linux_banner_title(page: Page):
     page.goto("/download/linux/")
@@ -22,4 +22,4 @@ def test_download_linux_banner_title(page: Page):
 def test_download_linux_banner_subtitle(page: Page):
     page.goto("/download/linux/")
     hero_subtitle = page.locator(".hero-subtitle")
-    expect(hero_subtitle).to_contain_text("QGIS Desktop for Linux")
+    expect(hero_subtitle).to_contain_text("Download for Linux")

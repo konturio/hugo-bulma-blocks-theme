@@ -11,12 +11,12 @@ def test_homepage_screenshot(page: Page, screenshot_dir: Path):
 
 def test_value_page_title(page: Page):
     page.goto("/value-proposition/")
-    assert page.title() == "QGIS Value Proposition · QGIS Web Site"
+    assert page.title() == "Value Proposition · Web Site"
 
 def test_value_banner_title(page: Page):
     page.goto("/value-proposition/")
     hero_title = page.locator(".hero-title")
-    expect(hero_title).to_contain_text("QGIS Value Proposition")
+    expect(hero_title).to_contain_text("Value Proposition")
 
 def test_value_banner_subtitle(page: Page):
     page.goto("/value-proposition/")

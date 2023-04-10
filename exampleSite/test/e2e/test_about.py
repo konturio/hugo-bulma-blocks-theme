@@ -11,7 +11,7 @@ def test_about_screenshot(page: Page, screenshot_dir: Path):
 
 def test_about_page_title(page: Page):
     page.goto("/about/")
-    assert page.title() == "About QGIS · QGIS Web Site"
+    assert page.title() == "About · Web Site"
 
 def test_about_banner_title(page: Page):
     page.goto("/about/")

@@ -14,7 +14,7 @@ and useful code base, free to use and improve for everybody. As a result, you
 have free access to the source code and binaries that we provide on our web
 site. As a result of this volunteer approach, a number of tasks, less
 interesting or important for the developers, are sometimes left behind. In
-addition, promoting QGIS requires our participation at congresses and
+addition, promoting our work requires our participation at congresses and
 conferences and the production of information material, sometimes very
 expensive for volunteer developers.
 
@@ -69,9 +69,9 @@ With your financial contributions we are able to:
 * mentoring new contributors
 * translating 
 * running our grant system that allows contributors to work on behind the scenes
-  improvements to the QGIS code base, our infrastructure, documentation or other aspects
+  improvements to the code base, our infrastructure, documentation or other aspects
   of our community. Work that otherwise would be hard to do by volunteers only or hard
-  to sell to customers of QGIS development companies
+  to sell to customers of development companies
 * organize and support our contributor meetings and conferences
 
 {{< box-end >}}
@@ -134,8 +134,8 @@ payments, payments through stripe.com are preferred as payment fees are lower th
 with PayPal. PayPal payments also imply an unnecessary currency conversion (€ to CHF and
 back to €) for reasons only PayPal understands.
 
-Donations to our software are tax-deductible in some countries (e.g. in Germany through the 
-`German QGIS user group <https://example.com/#tax>`_).
+Donations to our software are tax-deductible in some countries (e.g. through
+the `user group <https://example.com/#tax>`_).
 Please refer to your local tax office for details.
 
 # How will you benefit supporting the project?

@@ -16,7 +16,7 @@
 #     expect(logo).to_be_visible()
 
 #     logo_subtitle = page.locator(".subtitle")
-#     expect(logo_subtitle).to_contain_text("QGIS")
+#     expect(logo_subtitle).to_contain_text("Site Name Here")
 
 
 # def test_pagination(page: Page):

@@ -1,4 +1,4 @@
-# QGIS-HUGO End to End Tests
+# End to End Tests
 
 ## Testing Methodology
 These tests are setup using the [Playwright](https://playwright.dev/python/docs/writing-tests) framework. They are intended to run on each commit to verify the site is working in expected order.
