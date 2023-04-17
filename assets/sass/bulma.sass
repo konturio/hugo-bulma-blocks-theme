@@ -130,7 +130,7 @@ $control-border-width: 1px
 $input-border-color: light1
 $input-shadow: none
 $box-shadow: none
-$box-radius: 0px
+$box-radius: 5px
 $box-background-color: $complementary1
 $box-color: $light1
 $box-link-hover-shadow: none
@@ -138,7 +138,7 @@ $box-link-hover-shadow: none
 $navbar-background-color: $grey-light
 $navbar-dropdown-background-color: $grey-light
 /* We are going for a more boxy look on our site */
-$notification-radius: 0px
+$notification-radius: {{ .Param "corner-radius" }}
 
 /*! bulma.io | MIT License | github.com/jgthms/bulma */
 @import "bulma/utilities/_all"
