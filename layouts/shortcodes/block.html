@@ -21,12 +21,12 @@
 {{ $image = false }}
 {{ end }}
 {{ if ne $image false }}
-    {{/* printf "Image: %s" $image */}}
+    {{/* printf "\n Image: %s" $image */}}
     {{ $imageResource = .Page.Resources.GetMatch $image }}
-    {{/* printf "Image Resource : %s" $imageResource.Name */}}
-    {{ $imageResized = $imageResource.Resize "240x240" | resources.Copy (printf "resized-%s" $imageResource.Name) }}
-    {{/* printf "Resized Image Resource : %s" $imageResized */}}
+    {{/* printf "%#v" $imageResource */}}
+    {{/* printf "\n Image Resource : %s" $imageResource */}}
     {{ $imagePath = $imageResource.RelPermalink }}
+    {{/* printf "\n Image Path : %s" $imagePath */}}
 {{ end }}
 {{ $title := .Get "title" | default "" }}
 {{ $subtitle := .Get "subtitle" | default "" }}

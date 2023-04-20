@@ -761,13 +761,29 @@ The ```image-bar``` shortcode is a way to put a row of circular image elements o
 
 ```
 {{< image-bar 
-    "Cartography./README-images/map1.png"
-    "Analysis./README-images/map2.png"
-    "Print./README-images/map3.png" >}}
+    "Cartography:/README-images/map1.png"
+    "Analysis:/README-images/map2.png"
+    "Print:/README-images/map3.png" >}}
 ```
 
 To use image-bar, pass it a collection of key-value pairs separated by ``:`` colons as
-illustrated above. The secnd value should be a path to an image.
+illustrated above. The second value should be a path to an image.
+
+## Image Block Bar
+
+The ```image-block-bar``` shortcode is a way to put a row of image elements with titles and subtitles onto your page:
+
+![Cards](./README-images/hugo-image-block-bar.png)
+
+```
+{{< image-bar 
+    "Cartography:Make beautiful maps.:/README-images/map1.png"
+    "Analysis:Analyse your data:/README-images/map2.png"
+    "Print:Print your maps!:/README-images/map3.png" >}}
+```
+
+To use image-block-bar, pass it a collection of key-value tipleets separated by ``:`` colons as illustrated above. The first value in each triplet is the title. The second value should be a subtitle. The third should be a path to an image.
+
 
 ## Button Bar
 
