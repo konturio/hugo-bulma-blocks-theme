@@ -41,7 +41,7 @@
 {{ $hasInner := ne $innerMarkup "" }}
 {{/* printf "hasInner: %s" $hasInner */}}
 {{ $showFooter := or $hasLink $hasInner }}
-{{/*  printf "Show footer: %s" $showFooter */}}
+{{/* printf "Show footer: %s" $showFooter */}}
 {{ $animationClasses := "" }}
 {{ if eq $animate "true" }}
 {{ $animationClasses := "animation-element animate-from-left" }}
