@@ -6,3 +6,8 @@ a.is-active > span {
 .is-semi-transparent {
     opacity:0.9;
 }
+
+#menu > div > a > span:hover {
+    border-bottom: solid 1px;
+    color: black;
+}
