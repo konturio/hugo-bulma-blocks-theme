@@ -107,10 +107,6 @@ $family-sans-serif: text-font
 $family-primary: $text-font
 $title-family: $heading-font
 
-// The primary navbar needs to be over the secondary
-// so the dropdowns don't get obscured. TS.
-$navbar-fixed-z: 1000 !default
-
 // Colors
 $grey-dark: {{ .Param "grey-dark" }}
 $grey-light: {{ .Param "grey-light" }}
@@ -121,12 +117,6 @@ $success: {{ .Param "success" }}
 $warning: {{ .Param "warning" }}
 $link: {{ .Param "link" }}
 
-// Allow navbar logo to be larger than navbar specified height
-$navbar-item-img-max-height: 57px;
-
-// Add more spacing between menu items
-.navbar-link
-  padding: 0.5rem 2rem
 $widescreen-enabled: false
 //$fullhd-enabled: false
 
@@ -142,10 +132,24 @@ $box-color: $light1
 $box-link-hover-shadow: none;
 
 $menu-item-color: $dark2
+// Not really needed since we will hide it
 $navbar-dropdown-arrow: $dark2
+$navbar-dropdown-arrow: none
 $navbar-item-hover-color: $dark2
 $navbar-background-color: $grey-light
 $navbar-dropdown-background-color: $grey-light
+// Add more spacing between menu items
+.navbar-item,
+.navbar-link
+  padding: 0.5rem 2rem
+// The primary navbar needs to be over the secondary
+// so the dropdowns don't get obscured. TS.
+$navbar-fixed-z: 1000 !default
+
+// Allow navbar logo to be larger than navbar specified height
+$navbar-item-img-max-height: 57px;
+
+  
 /* We are going for a more boxy look on our site */
 $notification-radius: {{ .Param "corner-radius" }}
 
