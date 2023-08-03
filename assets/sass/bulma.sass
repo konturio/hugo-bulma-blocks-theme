@@ -72,6 +72,8 @@ $light1: {{ .Param "light1" }}
 $light1-invert: findColorInvert($light1)
 $light2: {{ .Param "light2" }}
 $light2-invert: findColorInvert($light2)
+$light3: {{ .Param "light3" }}
+$light3-invert: findColorInvert($light3)
 $dark1: {{ .Param "dark1" }}
 $dark1-invert: findColorInvert($dark1)
 $dark2: {{ .Param "dark2" }}
@@ -95,6 +97,7 @@ $custom-colors: ("primary1": ($primary1, $primary1-invert),
 "complementary6" : ($complementary6, $complementary5-invert),
 "light1": ($light1, $light1-invert),
 "light2": ($light2, $light2-invert),
+"light3": ($light3, $light3-invert),
 "dark1": ($dark1, $dark1-invert),
 "dark2": ($dark2, $dark2-invert));
 
