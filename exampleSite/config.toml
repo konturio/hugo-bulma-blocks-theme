@@ -41,6 +41,7 @@ complementary2 = "#ee7913"
 complementary3 = "#f0e64a"
 complementary4 = "#93b023"
 complementary5 = "#a7cecb"
+complementary6 = "#589732"
 light1 = "#fbfbfb"
 light2 = "#eeeeee"
 dark1 = "#999999"
@@ -95,30 +96,30 @@ corner-radius = "0px"
   url = "/about/"
   weight = -110
   #pre = "<i class='fa-solid fa-clipboard-question mr-1'></i>"
-  
+
 [[menu.main]]
   name = "Community"
   url = "/community/"
-  weight = -110 # Sets the menu order 
+  weight = -110 # Sets the menu order
   #pre = "<i class='fa-solid fa-people-group mr-1'></i>"
 
 [[menu.main]]
   name = "Resources"
   url = "/hub/"
-  weight = -110 # Sets the menu order 
+  weight = -110 # Sets the menu order
   #pre = "<i class='fa-solid fa-handshake-angle mr-1'></i>"
 
 [[menu.main]]
   name = "Download"
   url = "/download/download/"
   #pre = "<i class='fa-solid fa-circle-down mr-1'></i>"
-  weight = -110 # Sets the menu order 
+  weight = -110 # Sets the menu order
 
 [[menu.main]]
   name = "Value"
   url = "/value-proposition/"
   #pre = "<i class='fa fa-heart mr-1'></i>"
-  weight = -110 # Sets the menu order 
+  weight = -110 # Sets the menu order
 
 # Submenus are done this way: parent -> identifier
 [[menu.main]]

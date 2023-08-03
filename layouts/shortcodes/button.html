@@ -9,8 +9,10 @@
 {{ end }}
 
 <a class="button {{ $class }} {{ $width }}" href="{{ absURL $link }}">
+    {{- if ne $icon "" }}
     <span class="icon is-small">
     <i class="{{ $icon }}"></i>
     </span>
+    {{- end }}
     <span>{{ $text }}</span>
 </a>

@@ -1,6 +1,6 @@
 {{/* see https://bulma.io/documentation/layout/hero/ for size options */}}
 {{ $size := .Params.HeroSize | default "is-small" }}
-<section class="hero is-info {{ $size }} has-bg-img"
+<section class="hero is-dark {{ $size }} has-bg-img"
 {{ if ( .Params.HeroImage ) }} 
 style="background: url('{{ absURL .Params.HeroImage | safeCSS }}');
        background-position: center;
@@ -9,11 +9,11 @@ style="background: url('{{ absURL .Params.HeroImage | safeCSS }}');
 
     <div class="hero-body">
         <div class="columns">
-            <div class="column is-2">
+            <div class="column is-1">
             </div>
-            <div class="column is-4">
+            <div class="column is-5">
                 <div class="container has-text-left">
-                    <p class="title is-size-1 hero-title pr-3">
+                    <p class="title hero-title pr-3">
                         {{ .Params.Title }}
                     </p>
                     <p class="subtitle is-size-2 hero-subtitle">
@@ -21,9 +21,9 @@ style="background: url('{{ absURL .Params.HeroImage | safeCSS }}');
                     </p>
                 </div>
             </div>
-            <div class="column is-7">
-                <figure class="image is-128x128">
-                    <img src="img/large-logo.svg">
+            <div class="column is-5 is-justify-content-center" style="display: flex">
+                <figure class="image">
+                    <img src="img/large-logo.svg" style="width: 15vw">
                 </figure>
             </div>
         </div>

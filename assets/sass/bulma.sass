@@ -26,14 +26,14 @@
 // Viewing the page source, search for the woff2 file url and then
 // opening that url in the browser
 
-{{ $montserrat := resources.Get "webfonts/monserrat.woff2" }}
+{{ $montserrat := resources.Get "webfonts/Montserrat.ttf" }}
 @font-face
-    font-family: "'Montserrat', sans-serif"
-    src: url('{{ $montserrat.RelPermalink }}') format('opentype')
+    font-family: 'Montserrat'
+    src: url('{{ $montserrat.RelPermalink }}') format('truetype')
 
 {{ $worksans := resources.Get "webfonts/worksans.woff2" }}
 @font-face
-    font-family: "'Work Sans', sans-serif"
+    font-family: 'Work Sans'
     src: url('{{ $worksans.RelPermalink }}') format('opentype')
 
 //Mainly just for testing if font choice changes work...
@@ -67,10 +67,13 @@ $complementary4: {{ .Param "complementary4" }}
 $complementary4-invert: findColorInvert($complementary4)
 $complementary5: {{ .Param "light1" }}
 $complementary5-invert: findColorInvert($complementary5)
+$complementary6: {{ .Param "complementary6" }}
 $light1: {{ .Param "light1" }}
 $light1-invert: findColorInvert($light1)
 $light2: {{ .Param "light2" }}
 $light2-invert: findColorInvert($light2)
+$light3: {{ .Param "light3" }}
+$light3-invert: findColorInvert($light3)
 $dark1: {{ .Param "dark1" }}
 $dark1-invert: findColorInvert($dark1)
 $dark2: {{ .Param "dark2" }}
@@ -91,8 +94,10 @@ $custom-colors: ("primary1": ($primary1, $primary1-invert),
 "complementary3" : ($complementary3, $complementary3-invert),
 "complementary4" : ($complementary4, $complementary4-invert),
 "complementary5" : ($complementary5, $complementary5-invert),
+"complementary6" : ($complementary6, $complementary5-invert),
 "light1": ($light1, $light1-invert),
 "light2": ($light2, $light2-invert),
+"light3": ($light3, $light3-invert),
 "dark1": ($dark1, $dark1-invert),
 "dark2": ($dark2, $dark2-invert));
 
@@ -109,6 +114,7 @@ $title-family: $heading-font
 
 // Colors
 $grey-dark: {{ .Param "grey-dark" }}
+$grey-darker: {{ .Param "grey-darker" }}
 $grey-light: {{ .Param "grey-light" }}
 $primary: {{ .Param "primary" }}
 $danger: {{ .Param "danger" }}
