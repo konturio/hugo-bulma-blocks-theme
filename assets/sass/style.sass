@@ -7,9 +7,16 @@ mark
   border-radius: 0.25em;
   padding: .05rem 0.25em;
 
-.news-container
+.gradient-row
   background: linear-gradient(to right, #589732, #93B022);
-  margin-top: 1.3em;
+  height: 3em
+  display: flex
+  align-items: center
+  justify-content: flex-end
+
+.news-container
+  @extend .gradient-row
+  margin-top: 1.3em
 
 .news-text
   padding-right: 3em
@@ -40,3 +47,7 @@ mark
     padding-right: 0
     img
       height: 60%
+
+.box-section-footer
+  @extend .gradient-row
+  margin-top: -1em
