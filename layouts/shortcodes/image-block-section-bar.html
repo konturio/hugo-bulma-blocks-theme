@@ -1,33 +1,36 @@
 {{ $animationClasses := "" }}
 {{ $animate := .Get "animate" | default "false" }}
+{{ $backgroundColor := .Get "backgroundColor" | default "#FFF"}}
 {{ if eq $animate "true" }}
 {{ $animationClasses := "animation-element animate-from-left" }}
 {{ end}}
-<section class="section {{ $animationClasses }}" style="margin-top: -75px; background-color: #363636">
+<section class="section has-background-grey-darker {{ $animationClasses }} pl-6 pr-6" style="margin-top: -75px">
     <div class="container is-fluid">
         <div class="tile is-ancestor">
-            <div class="tile is-parent"  style="gap: 15px;">
+            <div class="tile is-parent" >
                 {{- range (seq 0 (sub (len .Params) 1) ) }}
 
-                <div class="tile is-child">
+                <div class="tile is-child pl-3 pr-3">
                     {{- $myArg := $.Get . }}
                     {{/* printf "\n Args: %s" $myArg */}}
                     {{ $myArgs := split $myArg ":" }}
                     {{/* printf "\n Args: %s" $myArgs */}}
                     <figure class="image">
                         <img width="128" height="128" class="has-ratio"
-                        src="{{ index $myArgs 2 }}">
+                             src="{{ index $myArgs 2 }}">
                     </figure>
-                    <div style="background-color: #395C6B; color: white; height: 100px">
-                        <article class="article title is-5 pt-2 has-text-centered" style="color: white">
+                    <div class="has-text-white p-5" style="background-color: {{ index $myArgs 3 }}; height: 15em">
+                        <article class="has-text-white article title is-5 pt-5 pl-3">
                             {{ index $myArgs 0 }}
                         </article>
-                        <article class="article subtitle is-7 pt-2 has-text-centered" style="color: white">
+                        <article class="has-text-white article subtitle is-6 pt-6 pl-3 pr-3">
                             {{ index $myArgs 1 }}
                         </article>
                     </div>
+
+                    <div class="has-background-complementary2" style="min-height: 1.5em;"></div>
                 </div>
-                {{ end }}        
+                {{ end }}
             </div>
         </div>
     </div>

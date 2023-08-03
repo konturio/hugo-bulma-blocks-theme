@@ -26,14 +26,14 @@
 // Viewing the page source, search for the woff2 file url and then
 // opening that url in the browser
 
-{{ $montserrat := resources.Get "webfonts/monserrat.woff2" }}
+{{ $montserrat := resources.Get "webfonts/Montserrat.ttf" }}
 @font-face
-    font-family: "'Montserrat', sans-serif"
-    src: url('{{ $montserrat.RelPermalink }}') format('opentype')
+    font-family: 'Montserrat'
+    src: url('{{ $montserrat.RelPermalink }}') format('truetype')
 
 {{ $worksans := resources.Get "webfonts/worksans.woff2" }}
 @font-face
-    font-family: "'Work Sans', sans-serif"
+    font-family: 'Work Sans'
     src: url('{{ $worksans.RelPermalink }}') format('opentype')
 
 //Mainly just for testing if font choice changes work...
@@ -109,6 +109,7 @@ $title-family: $heading-font
 
 // Colors
 $grey-dark: {{ .Param "grey-dark" }}
+$grey-darker: {{ .Param "grey-darker" }}
 $grey-light: {{ .Param "grey-light" }}
 $primary: {{ .Param "primary" }}
 $danger: {{ .Param "danger" }}
