@@ -96,7 +96,7 @@ Some css below   from in assets/css/block.css
             <div class="columns is-multiline">
                 {{/*  ----------------   Left Block (optional)  ---------  */}}
                 {{ if or (eq $blockSide "left") (eq $blockSide "bottom") }}
-                <div class="column {{ $titleTextAlign }} {{ $otherBlockSize }} is-vcentered {{ $class }} {{ if eq $blockSide "right" }}is-image-block{{ end }} is-flex"{{/* is flex ensures cols have the same height */}}
+                <div class="column pl-6 pr-6 {{ $titleTextAlign }} {{ $otherBlockSize }} is-vcentered {{ $class }} {{ if eq $blockSide "right" }}is-image-block{{ end }} is-flex"{{/* is flex ensures cols have the same height */}}
                 {{ if ne $image false }}
                 style="{{ $imageStyle | safeCSS }}"
                 {{ end }}>
@@ -114,7 +114,7 @@ Some css below   from in assets/css/block.css
         </div>
         {{/*  ----------------   Right Image Block (optional)  ---------  */}}
         {{ if eq $blockSide "right" }}
-        <div class="column {{ $titleTextAlign }} {{ $otherBlockSize }} is-vcentered {{ $class }} {{ if eq $blockSide "right" }}is-image-block{{ end }} is-flex" {{/* is flex ensures cols have the same height */}}
+        <div class="column  pl-6 pr-6 {{ $titleTextAlign }} {{ $otherBlockSize }} is-vcentered {{ $class }} {{ if eq $blockSide "right" }}is-image-block{{ end }} is-flex" {{/* is flex ensures cols have the same height */}}
         {{ if ne $image false }}
         style="{{ $imageStyle | safeCSS }}"
         {{ end }}>
