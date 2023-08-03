@@ -24,13 +24,13 @@
                         <a class="navbar-item is-size-7{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
                             {{ .Pre }}<span>{{ .Name }}</span>
                         </a>
-                        {{ end }}    
+                        {{ end }}
                     </div>
                 </div>
                     {{ else }}
                     <a class="navbar-item is-size-7{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
                         {{ .Pre }}<span>{{ .Name }}</span>
-                    </a>                
+                    </a>
                     {{ end }}
                 {{ end }}
                 {{ end }}
@@ -38,4 +38,4 @@
         </div>
     </nav>
 </section>
-{{ end }} 
+{{ end }}

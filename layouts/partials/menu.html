@@ -1,9 +1,9 @@
 {{ $fontSize := .Site.Params.menuFontClass }}
 {{ $currentPage := . }}
 {{ $pageUrl:= $currentPage.RelPermalink }}
-<section>
+<section style="height: 20px">
     <nav class="is-highest navbar is-fixed-top is-semi-transparent" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
+        <div class="navbar-brand pl-6">
             <a class="navbar-item" href="{{ absURL "/" }}">
                 <img alt="Logo" src="{{ absURL "img/logo.png" }}">
             </a>
@@ -18,22 +18,22 @@
                 {{ range sort .Site.Menus.main "Weight"}}
                     {{ $menuItemUrl := .URL }}
                     {{ if .HasChildren }}
-                <div class="navbar-item has-dropdown is-hoverable{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}">
+                <div class="navbar-item has-text-weight-bold has-dropdown is-hoverable{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}">
                     <a class="navbar-link {{ $fontSize }}">
                         {{ .Pre }}<span>{{ .Name }}</span>
                     </a>
                     <div class="navbar-dropdown">
                         {{ range sort .Children "Weight"}}
-                        <a class="navbar-item {{ $fontSize }}{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
+                        <a class="navbar-item  has-text-weight-bold {{ $fontSize }}{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
                             {{ .Pre }}<span>{{ .Name }}</span>
                         </a>
-                        {{ end }}    
+                        {{ end }}
                     </div>
                 </div>
                     {{ else }}
-                    <a class="navbar-item {{ $fontSize }}{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
+                    <a class="navbar-item has-text-weight-bold {{ $fontSize }}{{ if eq $menuItemUrl $pageUrl }} is-active{{ end }}" href="{{ .URL }}">
                         {{ .Pre }}<span>{{ .Name }}</span>
-                    </a>                
+                    </a>
                     {{ end }}
                 {{ end }}
 
