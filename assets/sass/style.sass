@@ -8,7 +8,7 @@ mark
   padding: .05rem 0.25em;
 
 .gradient-row
-  background: linear-gradient(to right, #589732, #93B022);
+  background: linear-gradient(to right, #589732, #93B022)
   height: 3em
   display: flex
   align-items: center
@@ -53,3 +53,15 @@ mark
 
 .hero-title
   font-size: 4.5vw
+
+.mkdown
+  strong, h1, h2, h3
+    color: inherit
+  li
+    margin: 20px 0
+
+.bottom-bar
+  border-bottom: 1.5em solid  {{ .Param "complementary2" }}
+
+.pb-7
+  padding-bottom: 4rem !important
