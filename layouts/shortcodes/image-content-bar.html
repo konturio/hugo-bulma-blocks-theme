@@ -12,7 +12,7 @@
                 {{ $myArgs := split $myArg ":" }}
                 <figure class="image">
                     <img width="64" height="64" class="has-ratio"
-                         src="{{ index $myArgs 1 }}">
+                         src="{{ index $myArgs 1 | absURL | safeURL  }}">
                 </figure>
                 <article class="article subtitle pt-2 has-text-centered">
                     {{ index $myArgs 0 }}
