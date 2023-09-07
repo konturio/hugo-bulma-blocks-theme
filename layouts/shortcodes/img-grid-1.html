@@ -9,7 +9,7 @@
             {{ if lt $index 2 }}
             <div class="column img-grid-1-column-{{ $index }}">
                 {{- $myArgs := split $element ":" }}
-                <img src="{{ index $myArgs 1 }}">
+                <img src="{{ index $myArgs 1 | absURL | safeURL }}">
             </div>
             {{ end }}
         {{ end }}
@@ -19,7 +19,7 @@
             {{ if gt $index 1 }}
             <div class="column img-grid-1-column-{{ $index }}">
                 {{- $myArgs := split $element ":" }}
-                <img src="{{ index $myArgs 1 }}">
+                <img src="{{ index $myArgs 1 | absURL | safeURL  }}">
             </div>
             {{ end }}
         {{ end }}
