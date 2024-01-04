@@ -1,11 +1,67 @@
 @import "../utilities/derived-variables"
 
-$footer-background-color: $scheme-main-bis !default
-$footer-color: false !default
-$footer-padding: 3rem 1.5rem 6rem !default
+$footer-mobile-breakpoint: 1200px !default
+$footer-tablet-breakpoint: 1450px !default
+$footer-background-color: hsla(222, 15%, 13%, 1) !default
+$footer-padding: 4rem 10rem 1rem 11.25rem !default
+$footer-padding-mobile: 4rem 2rem 4rem !default
 
 .footer
   background-color: $footer-background-color
-  padding: $footer-padding
-  @if $footer-color
-    color: $footer-color
+
+  text-align: center
+  padding: $footer-padding-mobile
+
+  +from($footer-mobile-breakpoint)
+    padding: $footer-padding
+    text-align: unset
+
+  +between($footer-mobile-breakpoint, $footer-tablet-breakpoint)
+    padding: 4rem 2rem 1rem 2rem
+
+
+  figure.image
+    height: auto
+    margin: 0 auto
+    margin-bottom: 4rem
+    +from($footer-mobile-breakpoint)
+      margin: unset
+
+  button.button
+    padding: 40px 87.5px
+    font-size: 24px
+    font-weight: 600
+    +from($footer-mobile-breakpoint)
+      padding: 1rem 2rem
+      font-size: 20px
+      font-weight: 400
+
+
+  a > i
+    font-size: 26px
+    +from($footer-mobile-breakpoint)
+        font-size: 32px
+
+  .social-icons-links
+    display: grid
+    grid-template-columns: repeat(3, 26px)
+    gap: 32px
+    justify-content: center
+    margin-top: 4rem !important
+    +from($footer-mobile-breakpoint)
+      display: grid
+      grid-template-columns: repeat(auto-fit, 32px)
+      gap: 34px
+      justify-content: unset
+      margin-top: unset !important
+
+
+  .privacy-links
+    margin-top: 4rem
+    +from($footer-mobile-breakpoint)
+      margin-top: unset
+
+  
+    
+  
+  
