@@ -11,6 +11,11 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
   text-align: center
   padding: $footer-padding-mobile
 
+  .copyright // I can't achieve this with the bulma classes
+    display: none
+    +from($desktop)
+      display: unset
+
   +from($desktop)
     padding: $footer-padding
     text-align: unset
