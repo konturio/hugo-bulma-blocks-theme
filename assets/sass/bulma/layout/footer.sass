@@ -1,6 +1,5 @@
 @import "../utilities/derived-variables"
 
-$footer-mobile-breakpoint: 1200px !default
 $footer-tablet-breakpoint: 1450px !default
 $footer-background-color: hsla(222, 15%, 13%, 1) !default
 $footer-padding: 4rem 10rem 1rem 11.25rem !default
@@ -12,11 +11,11 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
   text-align: center
   padding: $footer-padding-mobile
 
-  +from($footer-mobile-breakpoint)
+  +from($desktop)
     padding: $footer-padding
     text-align: unset
 
-  +between($footer-mobile-breakpoint, $footer-tablet-breakpoint)
+  +between($desktop, $footer-tablet-breakpoint)
     padding: 4rem 2rem 1rem 2rem
 
 
@@ -24,14 +23,14 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
     height: auto
     margin: 0 auto
     margin-bottom: 4rem
-    +from($footer-mobile-breakpoint)
+    +from($desktop)
       margin: unset
 
   button.button
     padding: 40px 87.5px
     font-size: 24px
     font-weight: 600
-    +from($footer-mobile-breakpoint)
+    +from($desktop)
       padding: 1rem 2rem
       font-size: 20px
       font-weight: 400
@@ -39,7 +38,7 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
 
   a > i
     font-size: 26px
-    +from($footer-mobile-breakpoint)
+    +from($desktop)
         font-size: 32px
 
   .social-icons-links
@@ -48,7 +47,7 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
     gap: 32px
     justify-content: center
     margin-top: 4rem !important
-    +from($footer-mobile-breakpoint)
+    +from($desktop)
       display: grid
       grid-template-columns: repeat(auto-fit, 32px)
       gap: 34px
@@ -58,7 +57,7 @@ $footer-padding-mobile: 4rem 2rem 4rem !default
 
   .privacy-links
     margin-top: 4rem
-    +from($footer-mobile-breakpoint)
+    +from($desktop)
       margin-top: unset
 
   
